@@ -1,0 +1,54 @@
+.welcome {
+    background-image: url('../../assets/imgs/bg_db.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+ion-page.WelcomePage>ion-content {
+    background-color: transparent;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+ion-grid {
+    height: 100%;
+    justify-content: center;
+}
+
+.heading {
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.custombt {
+    border: 1px #f5f5f5 solid !important;
+    border-radius: 0;
+    border-left: none !important;
+    border-right: none !important;
+    background: none !important;
+    color: #f5f5f5 !important;
+}
+
+.divider {
+    position: absolute;
+    margin: 0 5px 0 5px;
+    width: 1px;
+    height: 20px;
+    margin: auto;
+    background: #919292;
+    top: 30%;
+    left: 55%;
+}
+
+.footer-text {
+    font-size: 9px;
+    color: #f5f5f5;
+}

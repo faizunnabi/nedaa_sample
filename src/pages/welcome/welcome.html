@@ -1,0 +1,27 @@
+<ion-content padding class="welcome">
+    <div class="overlay"></div>
+    <ion-grid>
+        <ion-row>
+            <ion-col text-center>
+                <img src="../../assets/imgs/nedaa-bw.png" />
+                <h1 class="heading">Welcome to NEDAA</h1>
+                <div style="position: relative">
+                    <button ion-button color="light" clear (click)="goHome()">ENGLISH</button>
+
+                    <span class="divider"></span>
+
+                    <button ion-button color="light" clear (click)="goHome()">عربى</button>
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-footer>
+        <ion-grid>
+            <ion-row>
+                <ion-col text-center>
+                    <p class="footer-text">&copy; 2017 Al Rumaithy Establishment</p>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-footer>
+</ion-content>
