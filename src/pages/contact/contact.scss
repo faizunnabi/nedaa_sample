@@ -1,0 +1,24 @@
+page-contact {
+    ion-header {
+        .toolbar-background {
+            background: linear-gradient(135deg, #f0f0f0, #c0c0be);
+        }
+        .sub_head {
+            ion-toolbar {
+                height: 30px !important;
+            }
+            .toolbar-background {
+                background: url(../../assets/imgs/OLO2DT0.jpg) no-repeat center left !important;
+                background-size: cover !important;
+            }
+            .toolbar-title {
+                vertical-align: middle !important;
+                color: #f5f5f5 !important;
+            }
+        }
+        .sub_head .toolbar-title {
+            font-size: 13px !important;
+            background: none;
+        }
+    }
+}

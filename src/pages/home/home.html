@@ -1,12 +1,73 @@
 <ion-header>
     <ion-navbar hideBackButton>
-        <button ion-button menuToggle>
-          <ion-icon name="menu"></ion-icon>
-        </button>
-        <ion-title>Home</ion-title>
+        <ion-buttons left>
+            <button ion-button menuToggle>
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title text-center><img src="assets/imgs/nedaa.png" height="40"></ion-title>
+        <ion-buttons end>
+            <button ion-button clear color="dark">
+                <ion-icon name="help-circle"></ion-icon>
+            </button>
+        </ion-buttons>
     </ion-navbar>
+    <div class="sub_head">
+        <ion-toolbar>
+            <ion-title text-center>Dashboard</ion-title>
+        </ion-toolbar>
+    </div>
 </ion-header>
+<ion-content class="page_content">
 
-<ion-content padding>
-    <h3>Home Page</h3>
+    <ion-grid class="menu_grid">
+        <div class="inner_heading">
+            Our Services
+        </div>
+        <ion-row>
+            <ion-col text-center>
+                <img src="assets/imgs/annual.png" />
+                <h5>Annual Package</h5>
+            </ion-col>
+            <ion-col text-center>
+                <img src="assets/imgs/quaterly.png" />
+                <h5>Quarterly Package</h5>
+            </ion-col>
+            <ion-col text-center>
+                <img src="assets/imgs/annual_lease.png" />
+                <h5>Annual Lease Package</h5>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col text-center>
+                <img src="assets/imgs/monthly_lease.png" />
+                <h5>Monthly Lease Package</h5>
+            </ion-col>
+            <ion-col text-center>
+                <img src="assets/imgs/weekly_lease.png" />
+                <h5>Weekly Lease Package</h5>
+            </ion-col>
+            <ion-col text-center>
+                <img src="assets/imgs/settings.png" />
+                <h5>Settings</h5>
+            </ion-col>
+        </ion-row>
+        <div class="inner_heading">
+            Related Applications
+        </div>
+        <ion-row>
+            <ion-col text-center>
+                <img src="assets/imgs/weekly_lease.png" />
+                <h5>Weekly Lease Package</h5>
+            </ion-col>
+            <ion-col text-center>
+                <img src="assets/imgs/quaterly.png" />
+                <h5>Quarterly Package</h5>
+            </ion-col>
+            <ion-col text-center>
+                <img src="assets/imgs/quaterly.png" />
+                <h5>Settings</h5>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
 </ion-content>

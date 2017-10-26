@@ -1,5 +1,5 @@
 # NEDAA_Sample
 
-Sample application to design template for mockups presentation
+Sample ionic template for general purpose combining side menus and tabs layout.
 
 

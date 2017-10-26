@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, MenuController } from 'ionic-angular';
-import {HomePage} from '../home/home';
+import {TabsPage} from '../tabs/tabs';
 
 @Component({
   selector: 'page-welcome',
@@ -12,6 +12,6 @@ export class WelcomePage {
     this.menu.swipeEnable(false);
   }
   goHome(){
-    this.navCtrl.push(HomePage);
+    this.navCtrl.push(TabsPage);
   }
 }

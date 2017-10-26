@@ -1,6 +1,8 @@
 {
-  "name": "nedaa_sample",
-  "app_id": "",
+  "name": "neda",
+  "app_id": "37c72530",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }

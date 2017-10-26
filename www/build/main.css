@@ -15276,7 +15276,7 @@ ion-menu.show-menu {
   transform: translate3d(-9999px,  0,  0);
   position: absolute;
   display: block;
-  width: 304px;
+  width: 275px;
   height: 100%;
   contain: strict;
 }
@@ -15327,7 +15327,7 @@ ion-menu ion-backdrop {
 
 @media (max-width: 340px) {
   .menu-inner {
-    width: 264px;
+    width: 235px;
   }
 }
 
@@ -19707,7 +19707,7 @@ ion-spinner.spinner-paused svg {
   -ms-flex-pack: center;
   justify-content: center;
   border-top: 0.55px solid rgba(0, 0, 0, 0.3);
-  background: #f8f8f8;
+  background: #231f20;
 }
 
 .tabs-ios[tabsPlacement=top] .tabbar {
@@ -19726,11 +19726,11 @@ ion-spinner.spinner-paused svg {
 
 .tabs-ios .tab-button:hover:not(.disable-hover),
 .tabs-ios .tab-button[aria-selected=true] {
-  color: #488aff;
+  color: #f5f5f5;
 }
 
 .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
-  color: #488aff;
+  color: #f5f5f5;
 }
 
 .tabs-ios .tab-button-text {
@@ -19876,18 +19876,18 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-md .tabbar {
-  background: #f8f8f8;
+  background: #231f20;
 }
 
 .tabs-md .tab-button {
   min-height: 5.6rem;
   font-weight: normal;
-  color: rgba(60, 60, 60, 0.7);
+  color: rgba(214, 214, 214, 0.7);
   padding: 0;
 }
 
 .tabs-md .tab-button[aria-selected=true] {
-  color: #488aff;
+  color: #f5f5f5;
   padding: 0;
 }
 
@@ -19925,7 +19925,7 @@ ion-spinner.spinner-paused svg {
   margin-top: 1px;
   min-width: 2.4rem;
   font-size: 2.4rem;
-  color: rgba(60, 60, 60, 0.7);
+  color: rgba(214, 214, 214, 0.7);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
@@ -19935,7 +19935,7 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
-  color: #488aff;
+  color: #f5f5f5;
   -webkit-transform: translate3d(0,  -2px,  0);
   transform: translate3d(0,  -2px,  0);
 }
@@ -19973,7 +19973,7 @@ ion-spinner.spinner-paused svg {
   display: block;
   width: 1px;
   height: 2px;
-  background: #488aff;
+  background: #f5f5f5;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
@@ -20083,7 +20083,7 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-wp .tabbar {
-  background: #f8f8f8;
+  background: #231f20;
 }
 
 .tabs-wp .tab-button {
@@ -20099,8 +20099,8 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-wp .tab-button[aria-selected=true] {
-  border-bottom-color: #488aff;
-  color: #488aff;
+  border-bottom-color: #f5f5f5;
+  color: #f5f5f5;
 }
 
 .tabs-wp .tab-button.activated {
@@ -20113,7 +20113,7 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-wp[tabsPlacement=bottom] .tab-button[aria-selected=true] {
-  border-top-color: #488aff;
+  border-top-color: #f5f5f5;
 }
 
 .tabs-wp .tab-button-text {
@@ -20128,7 +20128,7 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-wp .tab-button[aria-selected=true] .tab-button-icon {
-  color: #488aff;
+  color: #f5f5f5;
 }
 
 .tabs-wp[tabsLayout=icon-bottom] .tab-button {
@@ -25510,6 +25510,141 @@ ion-navbar.toolbar {
   padding-bottom: calc(constant(safe-area-inset-top) + 4px);
   height: calc(46px + constant(safe-area-inset-top));
   min-height: calc(46px + constant(safe-area-inset-top));
+}
+
+.menu .menu-left {
+  background: linear-gradient(135deg, #222, #231f20) !important;
+}
+
+.menu .menu-left ion-item {
+  background: linear-gradient(135deg, #222, #231f20) !important;
+  color: #f5f5f5;
+}
+
+.menu .menu-left button {
+  background: linear-gradient(135deg, #222, #231f20) !important;
+  color: #f5f5f5;
+}
+
+.menu .menu-left .input-wrapper {
+  font-size: 14px !important;
+}
+
+.menu .menu-left .input-wrapper .label img {
+  position: relative !important;
+  top: 5px !important;
+  margin-right: 5px !important;
+}
+
+.menu .toolbar-background {
+  background: url(../../assets/imgs/OLO2DT0.jpg) no-repeat center left !important;
+  background-size: cover !important;
+}
+
+.menu .toolbar-title {
+  color: #f5f5f5 !important;
+  font-size: 18px;
+}
+
+.menu .toolbar-title-ios {
+  width: 200px !important;
+  text-align: left;
+  margin-left: -65px;
+}
+
+ion-content {
+  background: url(../assets/imgs/colorbunch_wallpaper02.jpg) no-repeat center;
+  background-size: cover;
+}
+
+page-about ion-header .toolbar-background {
+  background: linear-gradient(135deg, #f0f0f0, #c0c0be);
+}
+
+page-about ion-header .sub_head ion-toolbar {
+  height: 30px !important;
+}
+
+page-about ion-header .sub_head .toolbar-background {
+  background: url(../../assets/imgs/OLO2DT0.jpg) no-repeat center left !important;
+  background-size: cover !important;
+}
+
+page-about ion-header .sub_head .toolbar-title {
+  vertical-align: middle !important;
+  color: #f5f5f5 !important;
+}
+
+page-about ion-header .sub_head .toolbar-title {
+  font-size: 13px !important;
+  background: none;
+}
+
+page-contact ion-header .toolbar-background {
+  background: linear-gradient(135deg, #f0f0f0, #c0c0be);
+}
+
+page-contact ion-header .sub_head ion-toolbar {
+  height: 30px !important;
+}
+
+page-contact ion-header .sub_head .toolbar-background {
+  background: url(../../assets/imgs/OLO2DT0.jpg) no-repeat center left !important;
+  background-size: cover !important;
+}
+
+page-contact ion-header .sub_head .toolbar-title {
+  vertical-align: middle !important;
+  color: #f5f5f5 !important;
+}
+
+page-contact ion-header .sub_head .toolbar-title {
+  font-size: 13px !important;
+  background: none;
+}
+
+page-home ion-header .toolbar-background {
+  background: linear-gradient(135deg, #f0f0f0, #c0c0be);
+}
+
+page-home ion-header .sub_head ion-toolbar {
+  height: 30px !important;
+}
+
+page-home ion-header .sub_head .toolbar-background {
+  background: url(../../assets/imgs/OLO2DT0.jpg) no-repeat center left !important;
+  background-size: cover !important;
+}
+
+page-home ion-header .sub_head .toolbar-title {
+  vertical-align: middle !important;
+  color: #f5f5f5 !important;
+}
+
+page-home ion-header .sub_head .toolbar-title {
+  font-size: 13px !important;
+  background: none;
+}
+
+page-home .menu_grid h5 {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+page-home .menu_grid img {
+  width: 55%;
+  height: auto !important;
+}
+
+page-home .inner_heading {
+  width: 100%;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+  background: #e2e4e6;
+  padding: 5px;
+  margin-bottom: 5px;
 }
 
 .welcome {
